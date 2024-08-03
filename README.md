@@ -8,9 +8,8 @@ This POC produces a simple web service with Flask that can be scraped by Prometh
 * `python3 -m pip install rpi-lgpio flask`
 
 ## Connecting the board to the Raspberry-Pi 5
-* Connect the pins as shown in the two images below. I connected GND and 5V to any GND and 5V on the RPi, and VIN (which is actually the output pin, not the input pin!) to the RPi GPIO pin 7 (GPIO 4).
+* Connect the pins as shown in the two images below. I connected GND and 5V to any GND and 5V on the RPi, and VIN (which is actually the output pin, not the input pin!) to the RPi GPIO pin 7 (GPIO 4). (Oh, and apologies for using gray and white cables in the same setup. :) )
 ![RadiationD pins](/images/radiationd-pins.jpg)
-
 ![RPi pins](/images/rpi-5-pins.jpg)
 
 
