@@ -20,7 +20,7 @@ def cpm_metric():
     return f'''\
 # HELP radiationd_counts_per_min Ambient temperature in celcius
 # TYPE radiationd_counts_per_min gauge
-radioationd_counts_per_min {cpm}'''
+radiationd_counts_per_min {cpm}'''
 
 
 def on_event(channel):
